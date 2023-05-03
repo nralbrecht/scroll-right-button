@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Scroll Right Button",
+    "description": "A Firefox addon that adds a button to scroll the tab bar all the way to the right",
+    "homepage_url": "https://github.com/nralbrecht/scroll-right-button",
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "{5e3f7b39-85f0-42b9-9c4e-43704c8099c0}",
+          "strict_min_version": "64.0"
+        }
+    },
+    "icons": {
+        "48": "icon.svg",
+        "96": "icon.svg"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "icon.svg",
+            "38": "icon.svg"
+        }
+    },
+    "background": {
+      "scripts": ["background-script.js"]
+    }
+}
